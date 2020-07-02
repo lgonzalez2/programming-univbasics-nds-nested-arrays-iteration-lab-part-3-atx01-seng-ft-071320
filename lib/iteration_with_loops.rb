@@ -11,7 +11,7 @@ def join_nested_strings(src)
     while inner_count < src[count].length do 
       
       if src[count][inner_count].class == String
-        sum_string << src[count][inner_count] + ""
+        sum_string << src[count][inner_count] + " "
       end
       
       inner_count += 1 
